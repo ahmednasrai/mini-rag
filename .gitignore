@@ -1,0 +1,51 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Conda
+.conda/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# IDEs
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Model Files
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+
+# Data
+data/raw/
+data/processed/
+
+# Cache
+.cache/
